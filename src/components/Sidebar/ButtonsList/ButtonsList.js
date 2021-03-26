@@ -19,6 +19,24 @@ class ButtonsList extends Component {
                     price: 50,
                     quantity: 0,
                     clicks: 1
+                },
+                {
+                    title: 'StackOverflow',
+                    price: 500,
+                    quantity: 0,
+                    clicks: 5
+                },
+                {
+                    title: 'Data structures',
+                    price: 1000,
+                    quantity: 0,
+                    clicks: 10
+                },
+                {
+                    title: 'Algorithms++',
+                    price: 5000,
+                    quantity: 0,
+                    clicks: 50
                 }
             ]
         }
