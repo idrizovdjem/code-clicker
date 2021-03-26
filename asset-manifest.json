@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/code-clicker/static/css/main.91098821.chunk.css",
+    "main.js": "/code-clicker/static/js/main.edd3a96e.chunk.js",
+    "main.js.map": "/code-clicker/static/js/main.edd3a96e.chunk.js.map",
+    "runtime-main.js": "/code-clicker/static/js/runtime-main.32dfe738.js",
+    "runtime-main.js.map": "/code-clicker/static/js/runtime-main.32dfe738.js.map",
+    "static/js/2.bf1964d0.chunk.js": "/code-clicker/static/js/2.bf1964d0.chunk.js",
+    "static/js/2.bf1964d0.chunk.js.map": "/code-clicker/static/js/2.bf1964d0.chunk.js.map",
+    "index.html": "/code-clicker/index.html",
+    "static/css/main.91098821.chunk.css.map": "/code-clicker/static/css/main.91098821.chunk.css.map",
+    "static/js/2.bf1964d0.chunk.js.LICENSE.txt": "/code-clicker/static/js/2.bf1964d0.chunk.js.LICENSE.txt",
+    "static/media/code.4df28a51.png": "/code-clicker/static/media/code.4df28a51.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32dfe738.js",
+    "static/js/2.bf1964d0.chunk.js",
+    "static/css/main.91098821.chunk.css",
+    "static/js/main.edd3a96e.chunk.js"
+  ]
+}
