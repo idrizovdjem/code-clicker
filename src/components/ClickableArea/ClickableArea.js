@@ -9,7 +9,9 @@ const ClickableArea = (props) => {
                 <img 
                     src={codeImage} 
                     alt='clickable closing tags'
-                    onClick={() => props.click()} /> 
+                    onClick={() => {
+                        props.click();
+                    }} /> 
             </div>
         </div>
     );
