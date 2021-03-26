@@ -1,0 +1,28 @@
+.ClickableArea {
+    float: right;
+    width: 60%;
+    height: 94vh;
+}
+
+.Container {
+    width: 50%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.Container img {
+    cursor: pointer;
+    user-select: none;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .ClickableArea {
+        width: 100%;
+        height: auto;
+    }
+
+    .Container {
+        width: 80%;
+    }
+}

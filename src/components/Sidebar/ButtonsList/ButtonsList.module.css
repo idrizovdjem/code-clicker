@@ -1,0 +1,7 @@
+.ButtonsList {
+    width: 95%;
+    height: 68vh;
+    margin: 1vh auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,20 @@
+.Statistics {
+    width: 100%;
+    text-align: center;
+    height: 23vh;
+}
+
+.HeaderText {
+    font-size: 5vh;
+}
+
+.CodeLines {
+    margin: 0;
+    font-size: 4vh;
+}
+
+@media screen and (max-width: 600px) {
+    .Statistics {
+        height: auto;
+    }
+}

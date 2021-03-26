@@ -1,0 +1,14 @@
+.Sidebar {
+    width: 35%;
+    height: 94vh;
+    text-align: center;
+    border-right: 2px solid black;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .Sidebar {
+        width: 100%;
+        float: right;
+    }
+}
