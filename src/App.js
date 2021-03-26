@@ -6,7 +6,7 @@ import ClickableArea from './components/ClickableArea/ClickableArea';
 
 class App extends Component {
   state = {
-    balance: 50,
+    balance: 0,
     linesPerSecond: 0,
     clickValue: 1
   };

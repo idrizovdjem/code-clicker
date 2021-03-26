@@ -4,12 +4,15 @@ import classes from './ClickerButton.module.css';
 const ClickerButton = (props) => {
     let sectionRef = React.createRef();
     const [buyButtonState, setBuyButtonState] = useState(`${classes.Button} ${classes.Disabled}`);
+    const [clickerButtonState, setClickerButtonState] = useState(`${classes.ClickerButton}`);
 
     useEffect(() => {
         if(props.balance < props.price) {
             setBuyButtonState(`${classes.Button} ${classes.Disabled}`);
+            setClickerButtonState(`${classes.ClickerButton}`);
         } else {
             setBuyButtonState(`${classes.Button} ${classes.Buy}`);
+            setClickerButtonState(`${classes.ClickerButton} ${classes.CanBuy}`);
         }
     }, [props.balance, props.price]);
 
@@ -31,7 +34,7 @@ const ClickerButton = (props) => {
 
     return (
         <div>
-            <div className={classes.ClickerButton} onClick={toggleSection}>
+            <div className={clickerButtonState} onClick={toggleSection}>
                 <span className={classes.Title}>{props.title}</span>
             </div>
             <div className={classes.Section} ref={sectionRef}>
