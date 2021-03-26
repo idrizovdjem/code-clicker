@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/code-clicker/static/css/main.341a34fa.chunk.css",
-    "main.js": "/code-clicker/static/js/main.48f9f351.chunk.js",
-    "main.js.map": "/code-clicker/static/js/main.48f9f351.chunk.js.map",
+    "main.js": "/code-clicker/static/js/main.db010629.chunk.js",
+    "main.js.map": "/code-clicker/static/js/main.db010629.chunk.js.map",
     "runtime-main.js": "/code-clicker/static/js/runtime-main.32dfe738.js",
     "runtime-main.js.map": "/code-clicker/static/js/runtime-main.32dfe738.js.map",
     "static/js/2.5d980b47.chunk.js": "/code-clicker/static/js/2.5d980b47.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.32dfe738.js",
     "static/js/2.5d980b47.chunk.js",
     "static/css/main.341a34fa.chunk.css",
-    "static/js/main.48f9f351.chunk.js"
+    "static/js/main.db010629.chunk.js"
   ]
 }
